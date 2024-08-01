@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Css Changer</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Change the CSS of below image</h1>
+        <span class="heading">JavaScript</span>
+
+        <div class="css-controller">
+            <label for="base">Base Color</label>
+            <input type="color" name="base" id="base" value="#ff0000">
+
+            <label for="width">Width</label>    
+            <input 
+            type="range"
+            id="width"
+            name="width"
+            min="0"
+            max="100"
+            value="50"
+            data-sizing="%" >
+
+            
+            <label for="width">Border Radius</label>    
+            <input 
+            type="range"
+            id="border-radius"
+            name="border-radius"
+            min="0"
+            max="100"
+            value="50"
+            data-sizing="px" >
+    
+            
+            <label for="width">Padding</label>    
+            <input 
+            type="range"
+            id="padding"
+            name="padding"
+            min="0"
+            max="100"
+            value="50"
+            data-sizing="px" >
+
+            <label for="width">Blur</label>    
+            <input 
+            type="range"
+            id="blur"
+            name="blur"
+            min="0"
+            max="100"
+            value="30"
+            data-sizing="px" >
+
+            <img src="bengal-tiger-8013012_1280.jpg" alt="Image from Pixabay">
+
+        </div>
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>
